@@ -1,0 +1,10 @@
+autoawq==0.2.9
+transformers==4.51.3
+torch==2.8.0
+accelerate==1.11.0
+datasets==4.4.1
+pandas==2.2.2
+numpy==2.0.2
+scipy==1.15.3
+huggingface_hub==0.36.0
+tqdm==4.67.1
