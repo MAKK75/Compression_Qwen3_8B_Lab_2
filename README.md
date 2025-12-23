@@ -1,4 +1,4 @@
-```markdown
+
 # Lab 2: LLM Compression (Stage 1) - Qwen3-8B AWQ
 
 В данном репозитории представлено решение **Этапа 1** лабораторной работы по компрессии LLM.
@@ -79,4 +79,4 @@ python benchmark.py
 *   **Оборудование:** Код запускался на Kaggle (2x Tesla T4).
 *   **Методология:** Использовался `AutoAWQ` с настройками GEMM, w_bit=4, group_size=128.
 *   **Бенчмарк:** MMLU (Massive Multitask Language Understanding) через библиотеку `datasets`. Использовалась выборка `fraction=0.2` для оптимизации времени выполнения.
-```
+
